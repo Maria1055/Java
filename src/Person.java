@@ -4,7 +4,6 @@ public class Person {
     private String middleName;
     private String familyName;
     private int age;
-    private int yearOfBirth;
 
     public Person(String name, String middleName, String familyName, int age) {
         this.name = name;
@@ -16,7 +15,7 @@ public class Person {
         System.out.println("Имя: " + this.name);
     }
     public void printYear() {
-        System.out.println("Год рождения: " + (2022 - this.age));
+        System.out.println("Год рождения: " + (Calendar.Year - this.age));
     }
 
     public String getName() {
