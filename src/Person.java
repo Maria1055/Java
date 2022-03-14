@@ -10,7 +10,7 @@ public class Person {
         this.name = name;
         this.middleName = middleName;
         this.familyName = familyName;
-        this.age = age
+        this.age = age;
     }
     public void printName() {
         System.out.println("Имя: " + this.name);
