@@ -4,6 +4,7 @@ public class Person {
     private String middleName;
     private String familyName;
     private int age;
+    Calendar cal = Calendar.getInstance();
 
     public Person(String name, String middleName, String familyName, int age) {
         this.name = name;
